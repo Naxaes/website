@@ -217,8 +217,6 @@ sentry_sdk.init(
 
 # IN APP PURCHASES
 # ------------------------------------------------------------------------------
-INSTALLED_APPS += ["website.iap.apps.IapConfig",]
-
 GOOGLE_BUNDLE_ID = env("GOOGLE_BUNDLE_ID", default='')
 GOOGLE_SERVICE_ACCOUNT_KEY_FILE = str(ROOT_DIR) + '/path/to/your/json/file'
 IOS_SHARED_SECRET = env("IOS_SHARED_SECRET", default='')
